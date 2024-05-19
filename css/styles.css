@@ -2,8 +2,37 @@ body{
     font-family: "inter";
     margin: 0;
     background-color: hsl(0, 0%, 8%);
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    height: 100vh;
 }
 
-
+main{
+    display: inline-block;
+    width: 100%;
+}
+article{
+    display: block;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 20rem;
+    margin: 5rem auto;
+}
+.introduction{  
+    width: 100%;
+    display: inline;
+    margin: 0 1rem;
+}
+.introduction img{
+    display: block;
+    width: 4rem;
+    margin: 0 auto;
+}
+.introduction p{
+    color: hsl(75, 94%, 57%);
+}
+.links li{
+    background-color: hsl(0, 0%, 20%);
+}
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
