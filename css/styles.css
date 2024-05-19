@@ -66,7 +66,8 @@ article{
     margin: 1em;
     height: 3em;
     transition: 0.2s;
-
+    display: flex;
+    justify-content: center;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -86,7 +87,6 @@ article{
     font-weight: 600;
     align-content: center;
     height:100%;
-    display: block;
     color: white;
     text-decoration: none;
 }
