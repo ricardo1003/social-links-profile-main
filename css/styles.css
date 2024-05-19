@@ -1,4 +1,8 @@
-
+body{
+    font-family: "inter";
+    margin: 0;
+    background-color: hsl(0, 0%, 8%);
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
