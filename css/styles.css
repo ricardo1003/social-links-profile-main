@@ -65,11 +65,22 @@ article{
     border-radius: 5px;
     margin: 1em;
     height: 3em;
-    
+    transition: 0.2s;
+
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.links li:hover{
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    background-color: hsl(0, 0%, 15%);
+    outline: 1px solid hsl(75, 94%, 57%);
 }
 .links li a{
     font-weight: 600;
@@ -79,6 +90,7 @@ article{
     color: white;
     text-decoration: none;
 }
+
 
 
 
