@@ -14,22 +14,47 @@ main{
 }
 article{
     display: block;
+    border-radius: 10px;
     background-color: hsl(0, 0%, 12%);
     max-width: 20rem;
     margin: 5rem auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .introduction{  
     width: 100%;
     display: inline;
     margin: 0 1rem;
+    text-align: center;
 }
 .introduction img{
+    border-radius: 50%;
     display: block;
-    width: 4rem;
-    margin: 0 auto;
+    width: 5rem;
+    margin: 0 auto 1.5rem;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.introduction h1{
+    margin: 0.5rem 0;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.introduction h2{
+    margin: 0 0;
+    font-size: 1em;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
 }
 .introduction p{
-    color: hsl(75, 94%, 57%);
+    margin: 1.5rem 0;
+    font-weight: 1em;
+    font-weight: 300;
 }
 .links li{
     background-color: hsl(0, 0%, 20%);
