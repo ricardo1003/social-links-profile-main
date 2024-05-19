@@ -66,8 +66,6 @@ article{
     margin: 1em;
     height: 3em;
     transition: 0.2s;
-    align-content: center;
-    
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -84,9 +82,11 @@ article{
     outline: 1px solid hsl(75, 94%, 57%);
 }
 .links li a{
+    padding: 5%;
+    display: inline-block;
     font-weight: 600;
     width: 100%;
-    height:100%;
+    /* height:100%; */
     color: white;
     text-decoration: none;
 }
