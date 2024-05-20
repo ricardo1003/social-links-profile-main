@@ -60,6 +60,8 @@ article{
     padding: 0;
 }
 .links li{
+    display: flex;
+    align-items: center;
     list-style-type: none;
     background-color: hsl(0, 0%, 20%);
     border-radius: 5px;
@@ -82,7 +84,7 @@ article{
     outline: 1px solid hsl(75, 94%, 57%);
 }
 .links li a{
-    padding: 5% 0;
+    /* padding: 5% 0; */
     display: inline-block;
     font-weight: 600;
     width: 100%;
